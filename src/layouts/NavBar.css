@@ -1,0 +1,36 @@
+.active {
+    color: rgb(237, 51, 9);
+    text-decoration: none;
+}
+
+.no-active {
+    color: rgb(89, 89, 77);
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-image: url(../Assets/img/banner.jpeg);
+    background-size: 100% 100%;
+    align-items: center;
+    height: 15vh;
+    font-size: 350%;
+}
+
+
+.isActive{
+    display: flex;
+    text-align: end;
+    background-color: blue;
+}
+
+.pokebola{
+    display: flex;
+    background-image: url(https://img.icons8.com/color/2x/pokeball-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 13vh;
+    height: 13vh;
+}
